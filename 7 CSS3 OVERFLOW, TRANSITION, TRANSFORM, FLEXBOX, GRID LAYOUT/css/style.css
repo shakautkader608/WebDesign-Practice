@@ -33,3 +33,14 @@
     transform: scale(0.5) rotate(45deg);
 
 }
+.box3{
+    width: 400px;
+    height: 400px;
+    background-color: indigo;
+    margin-top: 50px;
+    transition: background  2s;
+}
+
+.box3:hover{
+    background-color:orange ;
+}
