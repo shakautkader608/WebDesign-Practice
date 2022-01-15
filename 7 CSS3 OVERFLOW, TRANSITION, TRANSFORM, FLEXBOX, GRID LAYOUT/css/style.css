@@ -1,15 +1,35 @@
+/* 
 .box1{
     width: 300px;
     height: 300px;
     border: 1px solid black;
-    /* overflow: hidden; */
     overflow: scroll;
 
 }
+
 .box2{
     margin-top: 10px;
     width: 300px;
     height: 300px;
     border: 1px solid black;
     overflow: scroll;
+} */
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid 2px rgb(129, 163, 4);
+}
+.outer{
+    background-color: grey;
+}
+.inner{
+    background-color: brown;
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+.inner:hover{
+    background-color: brown;
+    transform: scale(0.5) rotate(45deg);
+
 }
