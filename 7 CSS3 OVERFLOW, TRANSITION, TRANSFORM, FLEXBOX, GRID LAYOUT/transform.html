@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Transform</title>
+        <style>
+            .bat {
+                
+            }
+            .bat:hover {
+                transform: rotate(-60deg);
+                transform-origin: 100% 0%;
+                /* transition: transform 2s ease-in-out ; */
+                transition:transform  0.7s ;
+            }
+            .ball{
+                width: 40px;
+                height: 40px;
+                background-color: red;
+                border-radius: 50%;
+                position: relative;
+                bottom: 13px;
+                left: 506px;
+                
+            }    
+            .field:hover .ball{
+                transform: translate(500px, -200px);
+                transition: transform 1s ease-in .6s;
+
+            }        
+        </style>
+    </head>
+    <body>
+        <div class="field">
+            <img src="./images/bat.jpeg" alt="image" class="bat" />
+            <div class="ball"></div>
+        </div>
+        
+    </body>
+</html>
