@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calander</title>
+        <style>
+            .calender {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                grid-gap: 20px;
+            }
+            .box {
+                /* border: 1px solid red; */
+                padding: 15px;
+                justify-content: center;
+                display: flex;
+                font-size: 50px;
+                background-color: sandybrown;
+                color: black;
+            }
+            .other-month {
+                background-color: steelblue;
+            }
+            .day-name {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                grid-gap: 20px;
+            }
+            .day-name {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                grid-gap: 20px;
+            }
+            .day {
+                padding: 15px;
+                background-color: brown;
+                margin-bottom: 10px;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+            .red {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="day-name"> -->
+        <!-- <ul>
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li class="red">Fri</li>
+            <li>Sat</li>
+        </ul> -->
+        <div class="day-name">
+            <div class="day">Sun</div>
+            <div class="day">Mon</div>
+            <div class="day">Tue</div>
+            <div class="day">Wed</div>
+            <div class="day">Thu</div>
+            <div class="day red">Fri</div>
+            <div class="day">Sat</div>
+        </div>
+        <div class="calender">
+            <div class="box other-month">29</div>
+            <div class="box other-month">30</div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+            <div class="box">21</div>
+            <div class="box">22</div>
+            <div class="box">23</div>
+            <div class="box">24</div>
+            <div class="box">25</div>
+            <div class="box">26</div>
+            <div class="box">27</div>
+            <div class="box">28</div>
+            <div class="box">29</div>
+            <div class="box">30</div>
+            <div class="box">31</div>
+            <div class="box other-month">1</div>
+            <div class="box other-month">2</div>
+        </div>
+    </body>
+</html>
